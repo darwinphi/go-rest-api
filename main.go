@@ -75,6 +75,7 @@ func main() {
 	router.Run("localhost:9000")
 }
 
+// Run: go run main.go
 
 // curl  --location --request POST 'http://localhost:9000/todos' \
 //       --header 'Content-Type: application/json' \
